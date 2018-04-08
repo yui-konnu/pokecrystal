@@ -40,6 +40,10 @@ MeetMomScript:
 	scall PlayersHouse1FReceiveItemStd
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
+    giverandompoke 5
+    verbosegiveitem RARE_CANDY, 99
+    verbosegiveitem MASTER_BALL, 99
+    verbosegiveitem ITEM_19, 99
 	addcellnum PHONE_MOM
 	setscene SCENE_FINISHED
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
